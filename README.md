@@ -17,6 +17,7 @@ CPM sample model is used for building first draft code structure. [4]
 - [Human Activity Recognition](/app/src/main/assets/model16.tflite)
 
 ## Performance
+The following data is based on testing the application on an android device running Qualcomm Snapdragon 821. Later version of processors are found to have better performance. Further testing is required.
 
 | Function | Average Execution Time (ms) |
 | --- | --- |
@@ -32,9 +33,9 @@ The application is designed based on TensorFlow Lite Image Classifier. A breif d
 2. **ImageClassifier** An abstract class with functions to 
   - read tflite model file, 
   - byte convertion of Image,
-  - print to K labels
+  - Run action recognition model
 3. **CameraActivity** Activity to open camera view and draw OpenCV Key Points on Surface View. A function to add a button to take picture will be added here.
-4. **ImageClassifierFloatInception** Implements ImageClassifier. Heatmap array is created here. The output that needs to be fed to Tensor Flow lite as outpts. TODO // Add function to display inferences.
+4. **ImageClassifierFloatInception** Implements ImageClassifier. Heatmap array is created here. The output that needs to be fed to Tensor Flow lite as outpts. Also defines the execution of action recognition model.
 
 ## To Do
 - [x] Finish skeleton structure to read tflite file.
