@@ -13,8 +13,8 @@ This is a camera app that continuously detects Human Pose using OpenCV using you
 
 ## Model
 CPM sample model is used for building first draft code structure. [4]
-- ![Human Pose Estimation](/app/src/main/assets/humanposemodel.tflite) to the tflite model.
-- ![Human Activity Recognition](/app/src/main/assets/model16.tflite)
+- [Human Pose Estimation](/app/src/main/assets/humanposemodel.tflite) to the tflite model.
+- [Human Activity Recognition](/app/src/main/assets/model16.tflite)
 
 ## Performance
 
