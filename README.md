@@ -11,6 +11,11 @@ This is a camera app that continuously detects Human Pose using OpenCV using you
 - Sitting Down
 - Stand Down
 
+## Apk file for testing
+| File | Path |
+| --- | --- |
+| Human Activity Recognition | [APK](/apks/ActivityRecognition16.apk) |
+
 ## Model
 CPM sample model is used for building first draft code structure. [4]
 - [Human Pose Estimation](/app/src/main/assets/humanposemodel.tflite) to the tflite model.
