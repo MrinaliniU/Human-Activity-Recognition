@@ -253,8 +253,6 @@ class Camera2BasicFragment : Fragment(), FragmentCompat.OnRequestPermissionsResu
         layoutFrame = view.findViewById(R.id.layout_frame)
         drawView = view.findViewById(R.id.drawview)
         layoutBottom = view.findViewById(R.id.layout_bottom)
-//    if (classifier != null)
-//      drawView!!.setImgSize(classifier!!.imageSizeX, classifier!!.imageSizeY)
     }
 
     /**

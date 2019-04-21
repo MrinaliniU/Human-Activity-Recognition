@@ -13,8 +13,9 @@ class ImageClassifierFloatInception private constructor(
     private val outputW: Int,
     private val outputH: Int,
     modelPath: String,
+    actionPath: String,
     numBytesPerChannel: Int = 4 // a 32bit float value requires 4 bytes
-) : ImageClassifier(activity, imageSizeX, imageSizeY, modelPath, numBytesPerChannel) {
+) : ImageClassifier(activity, imageSizeX, imageSizeY, modelPath, actionPath, numBytesPerChannel) {
 
     /**
      * An array to hold inference results, to be feed into Tensorflow Lite as outputs.
@@ -23,7 +24,16 @@ class ImageClassifierFloatInception private constructor(
     private val heatMapArray: Array<Array<Array<FloatArray>>> =
         Array(1) { Array(outputW) { Array(outputH) { FloatArray(14) } } }
 
+    private val modelFileSize = 16
+
+    var block: Array<Array<FloatArray>> = Array(1) { Array(modelFileSize){ FloatArray(28) } }
+    var currentFrameIndex = 0
+   // private var currentFrameIndex = 0
+    private var actionOutput: Array<FloatArray> = Array(1){ FloatArray(10) }
+    private var label = arrayOf("Jumping in Place", "Jumping Jacks", "Bending", "Punching (Boxing)", "Waving (Two Hands)","Waving (Right)",
+        "Clapping Hands", "Throwing a Ball", "Sitting Down", "Stand Down")
     private var mMat: Mat? = null
+
 
     override fun addPixelValue(pixelValue: Int) {
         //bgr
@@ -48,21 +58,26 @@ class ImageClassifierFloatInception private constructor(
         return getProbability(labelIndex)
     }
 
-    override fun runInference() {
-        tflite?.run(imgData!!, heatMapArray)
+    override fun runActionInference() : String{
+        tfaction?.run(block,actionOutput)
+        val maxIdx = actionOutput[0].indices.maxBy { actionOutput[0][it] } ?: -1
+       // Log.i("Outout ******", maxIdx.toString())
+        return label[maxIdx]
+    }
 
+    override fun runInference() : Int{
+        tflite?.run(imgData!!, heatMapArray)
         if (mPrintPointArray == null)
             mPrintPointArray = Array(2) { FloatArray(14) }
-
         if (!CameraActivity.isOpenCVInit)
-            return
-
+            return 0
         // Gaussian Filter 5*5
         if (mMat == null)
             mMat = Mat(outputW, outputH, CvType.CV_32F)
-
         val tempArray = FloatArray(outputW * outputH)
         val outTempArray = FloatArray(outputW * outputH)
+        val current_frame =  FloatArray(28)
+        var k = 0
         for (i in 0..13) {
             var index = 0
             for (x in 0 until outputW) {
@@ -71,16 +86,14 @@ class ImageClassifierFloatInception private constructor(
                     index++
                 }
             }
-
             mMat!!.put(0, 0, tempArray)
             Imgproc.GaussianBlur(mMat!!, mMat!!, Size(5.0, 5.0), 0.0, 0.0)
             mMat!!.get(0, 0, outTempArray)
-
             var maxX = 0f
             var maxY = 0f
             var max = 0f
-
             // Find keypoint coordinate through maximum values
+
             for (x in 0 until outputW) {
                 for (y in 0 until outputH) {
                     val center = get(x, y, outTempArray)
@@ -91,16 +104,24 @@ class ImageClassifierFloatInception private constructor(
                     }
                 }
             }
-
             if (max == 0f) {
                 mPrintPointArray = Array(2) { FloatArray(14) }
-                return
+                return 0
             }
-
             mPrintPointArray!![0][i] = maxX
             mPrintPointArray!![1][i] = maxY
-//      Log.i("TestOutPut", "pic[$i] ($maxX,$maxY) $max")
+            current_frame[k] = maxX
+            k++
+            current_frame[k] = maxY
+            k++
         }
+        if(currentFrameIndex < modelFileSize){
+            block[0][currentFrameIndex] = current_frame
+            currentFrameIndex++
+        }else{
+            currentFrameIndex = 0
+        }
+        return 1
     }
 
     private operator fun get(
@@ -112,7 +133,7 @@ class ImageClassifierFloatInception private constructor(
     }
 
     companion object {
-
+        private const val modelFileSize = 16
         /**
          * Create ImageClassifierFloatInception instance
          *
@@ -121,6 +142,7 @@ class ImageClassifierFloatInception private constructor(
          * @param outputW The output width of model
          * @param outputH The output height of model
          * @param modelPath Get the name of the model file stored in Assets.
+         * @param actionPath Get the name of the action model file stored in Assets.
          * @param numBytesPerChannel Get the number of bytes that is used to store a single
          * color channel value.
          */
@@ -130,7 +152,8 @@ class ImageClassifierFloatInception private constructor(
             imageSizeY: Int = 192,
             outputW: Int = 96,
             outputH: Int = 96,
-            modelPath: String = "model.tflite",
+            modelPath: String = "humanposemodel.tflite",
+            actionPath: String = "model" + modelFileSize + ".tflite",
             numBytesPerChannel: Int = 4
         ): ImageClassifierFloatInception =
             ImageClassifierFloatInception(
@@ -140,6 +163,7 @@ class ImageClassifierFloatInception private constructor(
                 outputW,
                 outputH,
                 modelPath,
+                actionPath,
                 numBytesPerChannel)
     }
 }

@@ -22,6 +22,7 @@ internal constructor(
     val imageSizeX: Int, // Get the image size along the x axis.
     val imageSizeY: Int, // Get the image size along the y axis.
     private val modelPath: String, // Get the name of the model file stored in Assets.
+    private val actionPath: String,
     // Get the number of bytes that is used to store a single color channel value.
     numBytesPerChannel: Int
 ) {
@@ -31,6 +32,7 @@ internal constructor(
 
     /** An instance of the driver class to run model inference with Tensorflow Lite.  */
     protected var tflite: Interpreter? = null
+    protected var tfaction: Interpreter? = null /** TFlite file for action recognition **/
 
     /** A ByteBuffer to hold image data, to be feed into Tensorflow Lite as inputs.  */
     protected var imgData: ByteBuffer? = null
@@ -47,6 +49,7 @@ internal constructor(
 
     init {
         tflite = Interpreter(loadModelFile(activity))
+        tfaction = Interpreter(loadActionModelFile(activity))
         imgData = ByteBuffer.allocateDirect(
             DIM_BATCH_SIZE
                     * imageSizeX
@@ -59,35 +62,53 @@ internal constructor(
     }
 
     /** Classifies a frame from the preview stream.  */
-    public fun classifyFrame(bitmap: Bitmap): String {
+    fun classifyFrame(bitmap: Bitmap): String {
+
         if (tflite == null) {
             Log.e(TAG, "Image classifier has not been initialized; Skipped.")
             return "Uninitialized Classifier."
         }
         convertBitmapToByteBuffer(bitmap)
-        // Here's where the magic happens!!!
+        // Human Pose File
         val startTime = SystemClock.uptimeMillis()
         runInference()
         val endTime = SystemClock.uptimeMillis()
-        Log.d(TAG, "Timecost to run model inference: " + Long.toString(endTime - startTime))
+        // Action Model File
+        val actionStartTime = SystemClock.uptimeMillis()
+        // run new interface here
+        var classifiedAction = runActionInference()
+        val actionEndTime = SystemClock.uptimeMillis()
 
-
-        // Print the results.
-        //    String textToShow = printTopKLabels();
-        return Long.toString(endTime - startTime) + "ms"
+        //Log.d(TAG, "Timecost to run model inference: " + Long.toString(endTime - startTime))
+        //return Long.toString(endTime - startTime) + "ms, action: " + classifiedAction
+        return "Action: " + classifiedAction
     }
 
 
     /** Closes tflite to release resources.  */
     fun close() {
         tflite!!.close()
+        tfaction!!.close()
         tflite = null
+        tfaction = null
     }
 
     /** Memory-map the model file in Assets.  */
     @Throws(IOException::class)
     private fun loadModelFile(activity: Activity): MappedByteBuffer {
         val fileDescriptor = activity.assets.openFd(modelPath)
+        val inputStream = FileInputStream(fileDescriptor.fileDescriptor)
+        val fileChannel = inputStream.channel
+        val startOffset = fileDescriptor.startOffset
+        val declaredLength = fileDescriptor.declaredLength
+        return fileChannel.map(FileChannel.MapMode.READ_ONLY, startOffset, declaredLength)
+    }
+
+
+    /** Memory-map the action model file in Assets.  */
+    @Throws(IOException::class)
+    private fun loadActionModelFile(activity: Activity): MappedByteBuffer {
+        val fileDescriptor = activity.assets.openFd(actionPath)
         val inputStream = FileInputStream(fileDescriptor.fileDescriptor)
         val fileChannel = inputStream.channel
         val startOffset = fileDescriptor.startOffset
@@ -161,7 +182,9 @@ internal constructor(
      * This additional method is necessary, because we don't have a common base for different
      * primitive data types.
      */
-    protected abstract fun runInference()
+    protected abstract fun runInference() : Int
+
+    protected abstract fun runActionInference() : String
 
     companion object {
 
