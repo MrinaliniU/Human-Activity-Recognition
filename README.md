@@ -18,6 +18,14 @@ CPM sample model is used for building first draft code structure. [4]
 
 ## Performance
 
+| Function | Average Execution Time (ms) |
+| --- | --- |
+| Run interface for Pose Estimation | 103ms |
+| Run interface for Action Recognition | 110ms |
+| Total | 213ms |
+
+To-Do - Work on mace/tflite gpu api for acheiving better performance.
+
 ## Design.
 The application is designed based on TensorFlow Lite Image Classifier. A breif description of each activity is as follows:
 1. **MainActivity** This is the main page. User can navigate to PoseEsimation to open a camera view or to a log file to see predicted classes.
@@ -34,6 +42,7 @@ The application is designed based on TensorFlow Lite Image Classifier. A breif d
 - [x] Add OpenCV Functions.
 - [x] Add Classification Labels
 - [ ] Add Log functionality
+- [ ] Work on TFlite GPU performance enhancement
 
 ## Software Requirement
 - Android Studio 3.3.1.
