@@ -50,7 +50,7 @@ The application is designed based on TensorFlow Lite Image Classifier. A breif d
 </p>
 
 ## Reference
-- ![Human Pose Estimation Blog](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)
-- ![Object Detection App](https://github.com/tensorflow/examples/tree/master/lite/examples/image_classification/android)
-- ![TFLite Official Website](https://www.tensorflow.org/lite/models/pose_estimation/overview)
-- ![Pose Estimation Mobile](https://github.com/edvardHua/PoseEstimationForMobile)
+- [Human Pose Estimation Blog](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)
+- [Object Detection App](https://github.com/tensorflow/examples/tree/master/lite/examples/image_classification/android)
+- [TFLite Official Website](https://www.tensorflow.org/lite/models/pose_estimation/overview)
+- [Pose Estimation Mobile](https://github.com/edvardHua/PoseEstimationForMobile)
