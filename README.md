@@ -1,5 +1,21 @@
-# ARPoseEstimation
-This is a camera app that continuously detects Human Pose using OpenCV using your devices back camera.
+# Human-Activity-Recognition (Android Application)
+This is a camera app that continuously detects Human Pose using OpenCV using your devices back camera. The 14 key points detected is then used to detect the Human action. The current application is designed to detect one of the following activies.
+- Jumping in Place
+- Jumping Jacks
+- Bending
+- Punching (Boxing)
+- Waving (Two Hands)
+- Waving (Right)
+- Clapping Hands
+- Throwing a Ball
+- Sitting Down
+- Stand Down
+
+## Model
+CPM sample model is used for building first draft code structure. [4]
+![Human Pose Estimation](/app/src/main/assets/humanposemodel.tflite) to the tflite model.
+![Human Activity Recognition](/app/src/main/assets/model16.tflite)
+
 
 ## Design.
 The application is designed based on TensorFlow Lite Image Classifier. A breif description of each activity is as follows:
@@ -11,15 +27,11 @@ The application is designed based on TensorFlow Lite Image Classifier. A breif d
 3. **CameraActivity** Activity to open camera view and draw OpenCV Key Points on Surface View. A function to add a button to take picture will be added here.
 4. **ImageClassifierFloatInception** Implements ImageClassifier. Heatmap array is created here. The output that needs to be fed to Tensor Flow lite as outpts. TODO // Add function to display inferences.
 
-## Model
-CPM sample model is used for building first draft code structure.
-![Path](/app/src/main/assets/model.tflite) to the tflite model.
-
 ## To Do
 - [x] Finish skeleton structure to read tflite file.
 - [x] Add structure for Classification.
-- [ ] Add OpenCV Functions.
-- [ ] Add Classification Labels
+- [x] Add OpenCV Functions.
+- [x] Add Classification Labels
 - [ ] Add Log functionality
 
 ## Software Requirement
@@ -40,3 +52,4 @@ CPM sample model is used for building first draft code structure.
 - ![Human Pose Estimation Blog](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)
 - ![Object Detection App](https://github.com/tensorflow/examples/tree/master/lite/examples/image_classification/android)
 - ![TFLite Official Website](https://www.tensorflow.org/lite/models/pose_estimation/overview)
+- ![Pose Estimation Mobile](https://github.com/edvardHua/PoseEstimationForMobile)
