@@ -26,9 +26,10 @@ The following data is based on testing the application on an android device runn
 
 | Function | Average Execution Time (ms) |
 | --- | --- |
-| Run interface for Pose Estimation | 103ms |
-| Run interface for Action Recognition | 110ms |
-| Total | 213ms |
+| Pose Estimation Model | 136ms |
+| Action Recognition Model| 2ms |
+| Timecost to put values into ByteBuffer | 8ms |
+| Timecost to apply GaussBlur and Process HeatMap | 4ms |
 
 To-Do - Work on mace/tflite gpu api for acheiving better performance.
 
