@@ -79,7 +79,8 @@ internal constructor(
         var classifiedAction = runActionInference()
         val actionEndTime = SystemClock.uptimeMillis()
 
-        //Log.d(TAG, "Timecost to run model inference: " + Long.toString(endTime - startTime))
+        Log.d(TAG, "Timecost to run Pose model inference: " + Long.toString(endTime - startTime)+"ms")
+        //Log.d(TAG, "Timecost to run Action model inference: " + Long.toString(actionEndTime - actionStartTime) + "ms")
         //return Long.toString(endTime - startTime) + "ms, action: " + classifiedAction
         return "Action: " + classifiedAction
     }

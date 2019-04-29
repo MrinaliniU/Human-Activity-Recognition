@@ -1,0 +1,455 @@
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 46
+D/OpenGLRenderer: endAllActiveAnimators on 0xda785680 (ListView) with handle 0xdbff8f10
+D/TAG: Timecost to run just the Pose model inference: 140ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 183ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 125ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 127ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 9
+I/zygote: Do full code cache collection, code=119KB, data=88KB
+I/zygote: After code cache collection, code=105KB, data=69KB
+D/TAG: Timecost to run just the Pose model inference: 121ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 122ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 120ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 121ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 135ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 133ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 128ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 134ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+I/zygote: Do partial code cache collection, code=106KB, data=89KB
+I/zygote: After code cache collection, code=106KB, data=89KB
+    Increasing code cache capacity to 512KB
+D/TAG: Timecost to run just the Pose model inference: 152ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 154ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 129ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 131ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 135ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 9
+D/TAG: Timecost to run just the Pose model inference: 143ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 146ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 149ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 152ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 9
+D/TAG: Timecost to run just the Pose model inference: 126ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 128ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 9
+D/TAG: Timecost to run just the Pose model inference: 135ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 137ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 135ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 126ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 128ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 147ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 151ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 137ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 139ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 128ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 131ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 194ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 196ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 9
+D/TAG: Timecost to run just the Pose model inference: 140ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 142ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 138ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 141ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 155ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 158ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 15
+D/TAG: Timecost to run just the Pose model inference: 142ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 144ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 133ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 9
+D/TAG: Timecost to run just the Pose model inference: 140ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 143ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 9
+D/TAG: Timecost to run just the Pose model inference: 128ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 131ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 133ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 133ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 135ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 9
+D/TAG: Timecost to run just the Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 138ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 134ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 137ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 137ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 140ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 145ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 147ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 134ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 137ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 9
+D/TAG: Timecost to run just the Pose model inference: 138ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 141ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 142ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 145ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 134ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 129ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 16
+D/TAG: Timecost to run just the Pose model inference: 143ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 145ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 129ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 11
+D/TAG: Timecost to run just the Pose model inference: 124ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 127ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 145ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 148ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 10
+D/TAG: Timecost to run just the Pose model inference: 163ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 165ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 134ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 145ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 148ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 138ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 140ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 135ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 137ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 135ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 138ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 128ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 131ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 137ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 140ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 159ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 160ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 147ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 149ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 12
+D/TAG: Timecost to run just the Pose model inference: 167ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 169ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 207ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 209ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 154ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 156ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 135ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 138ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 125ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 127ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 135ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 133ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 129ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 127ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 150ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 152ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 144ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 146ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 133ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 139ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 129ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 143ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 146ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 134ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 137ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 138ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 140ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 138ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 135ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 138ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 134ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 137ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 138ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 141ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 129ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 131ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 146ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 149ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 138ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 141ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 154ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 156ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 10
+D/TAG: Timecost to run just the Pose model inference: 154ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 156ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 125ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 153ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 155ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 134ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 127ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 129ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 134ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 137ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 140ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 142ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 147ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 150ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 139ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 121ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 123ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 138ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 141ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 133ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 140ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 143ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 146ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 148ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 127ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 131ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 133ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 143ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 146ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 139ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 142ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 131ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 134ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 123ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 126ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 129ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 134ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 146ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 149ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 138ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+I/zygote: Do full code cache collection, code=253KB, data=183KB
+I/zygote: After code cache collection, code=187KB, data=134KB
+D/TAG: Timecost to run just the Pose model inference: 143ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 146ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 128ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 131ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 134ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 125ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 127ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 133ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 144ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 147ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 153ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 155ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 10
+D/TAG: Timecost to run just the Pose model inference: 125ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 128ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 128ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 129ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 121ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 123ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 133ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 135ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 133ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 134ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 134ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 137ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 134ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 137ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 131ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 133ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 135ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 12
+D/TAG: Timecost to run just the Pose model inference: 129ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 131ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 129ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 129ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 131ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 137ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 140ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 127ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 137ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 139ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 135ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 137ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 131ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 147ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 148ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 9
+D/TAG: Timecost to run just the Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 138ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 141ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 144ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 147ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 149ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 151ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 147ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 149ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 127ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 145ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 146ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 133ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 135ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 132ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 128ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 130ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 148ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 150ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 123ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 126ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 134ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 136ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 7
+D/TAG: Timecost to run just the Pose model inference: 147ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 149ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 137ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 140ms
+D/TfLiteCameraDemo: Timecost to put values into ByteBuffer: 8
+D/TAG: Timecost to run just the Pose model inference: 131ms
+D/TfLiteCameraDemo: Timecost to run Pose model inference: 134ms

@@ -1,10 +1,13 @@
 package com.dronelab.posewithkotlin
 
 import android.app.Activity
+import android.os.SystemClock
+import android.util.Log
 import org.opencv.core.CvType
 import org.opencv.core.Mat
 import org.opencv.core.Size
 import org.opencv.imgproc.Imgproc
+import java.lang.Long
 
 class ImageClassifierFloatInception private constructor(
     activity: Activity,
@@ -66,7 +69,12 @@ class ImageClassifierFloatInception private constructor(
     }
 
     override fun runInference() : Int{
+
+        val startTime = SystemClock.uptimeMillis()
         tflite?.run(imgData!!, heatMapArray)
+        val endTime = SystemClock.uptimeMillis()
+
+        Log.d("TAG", "Timecost to run just the Pose model inference: " + Long.toString(endTime - startTime)+"ms")
         if (mPrintPointArray == null)
             mPrintPointArray = Array(2) { FloatArray(14) }
         if (!CameraActivity.isOpenCVInit)
