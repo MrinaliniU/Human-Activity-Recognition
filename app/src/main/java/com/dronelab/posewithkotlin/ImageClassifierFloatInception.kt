@@ -27,14 +27,18 @@ class ImageClassifierFloatInception private constructor(
     private val heatMapArray: Array<Array<Array<FloatArray>>> =
         Array(1) { Array(outputW) { Array(outputH) { FloatArray(14) } } }
 
-    private val modelFileSize = 16
+    private val modelFileSize = 48
 
     var block: Array<Array<FloatArray>> = Array(1) { Array(modelFileSize){ FloatArray(28) } }
     var currentFrameIndex = 0
    // private var currentFrameIndex = 0
-    private var actionOutput: Array<FloatArray> = Array(1){ FloatArray(10) }
-    private var label = arrayOf("Jumping in Place", "Jumping Jacks", "Bending", "Punching (Boxing)", "Waving (Two Hands)","Waving (Right)",
-        "Clapping Hands", "Throwing a Ball", "Sitting Down", "Stand Down")
+    private var actionOutput: Array<FloatArray> = Array(1){ FloatArray(4) }
+    /*private var label = arrayOf("Jumping in Place", "Jumping Jacks", "Bending", "Punching (Boxing)", "Waving (Two Hands)","Waving (Right)",
+        "Clapping Hands", "Throwing a Ball", "Sitting Down", "Stand Down")*/
+
+
+    private var label = arrayOf("throw", "kicking something", "jump up", "salute")
+
     private var mMat: Mat? = null
 
 
@@ -141,7 +145,7 @@ class ImageClassifierFloatInception private constructor(
     }
 
     companion object {
-        private const val modelFileSize = 16
+        private const val modelFileSize = 48
         /**
          * Create ImageClassifierFloatInception instance
          *
@@ -161,7 +165,10 @@ class ImageClassifierFloatInception private constructor(
             outputW: Int = 96,
             outputH: Int = 96,
             modelPath: String = "humanposemodel.tflite",
-            actionPath: String = "model" + modelFileSize + ".tflite",
+           // actionPath: String = "model" + modelFileSize + ".tflite",
+            //actionPath: String = "modelNTU.tflite",
+            //actionPath: String = "modelNTU.tflite",
+            actionPath: String = "modelNTUTwo.tflite",
             numBytesPerChannel: Int = 4
         ): ImageClassifierFloatInception =
             ImageClassifierFloatInception(

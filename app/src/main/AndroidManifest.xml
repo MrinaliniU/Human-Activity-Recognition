@@ -14,9 +14,12 @@
             android:roundIcon="@drawable/mainui"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".CameraActivity"></activity>
-        <activity android:name=".MainActivity"
-                  android:screenOrientation="portrait">
+        <activity android:name=".ActivityLogs">
+        </activity>
+        <activity android:name=".CameraActivity"/>
+        <activity
+                android:name=".MainActivity"
+                android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
