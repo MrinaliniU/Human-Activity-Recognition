@@ -26,7 +26,7 @@ The following data is based on testing the application on an android device runn
 
 | Function | Average Execution Time (ms) |
 | --- | --- |
-| Pose Estimation Model | 114ms |
+| Pose Estimation Model | 119ms |
 | Action Recognition Model| 2ms |
 | Timecost to put values into ByteBuffer | 8ms |
 | Timecost to apply GaussBlur and Process HeatMap | 4ms |
